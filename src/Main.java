@@ -10,9 +10,10 @@ public class Main {
         System.out.println(book2.getTitle() + " " + book2.getAuthor() + " " + book2.getPublicationYear());
         book1.setPublicationYear(2022);
         System.out.println(book1.getTitle() + " " + book1.getAuthor() + " " + book1.getPublicationYear());
-
-
-
+        System.out.println(author1.equals(author2));
+        System.out.println(book1.equals(book2));
+        System.out.println(book1);
+        System.out.println(book2);
 
 
 
